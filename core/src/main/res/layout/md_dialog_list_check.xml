@@ -34,7 +34,8 @@
         <FrameLayout
             android:id="@+id/md_contentListViewFrame"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/md_contentRecyclerView"
@@ -54,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/md_notitle_vertical_padding"
             android:layout_marginRight="@dimen/md_notitle_vertical_padding"
-            android:focusable="true"
+            android:layout_weight="1"
             tools:text="Don't ask again"/>
 
     </LinearLayout>
